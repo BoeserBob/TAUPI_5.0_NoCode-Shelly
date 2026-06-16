@@ -1,25 +1,4 @@
-Erster Wurf für die Taupunktformel: 
-
-(A-(100-B)*0.19)>(C-(100-D)*0.19)+2
-
-Verhalten des Shelly Control verstehen: 
-Szene angelegt
-A = innen
-B = außen
-
-Erster Versuch: 
-Bedingungn A > B und 
-Aktion > Status ändern > Shelly Gerät einschalten + Benutzerdefinierter Timer Status ändern nach 12 sekunden
-schaltet das Gerät immer wieder ein, anscheinend bei Änderungen an der Temperatur. Scheint also zu funktionieren.
-
-Erkenntnis: Cloud Backend ist schneller als der Refresh Browser.
-
-Zweite Szene angelegt, die jede Minute die Taupi Szene startet.
-
 Jetzt gehts los: Szene mit Taupunktlüfter:
-
-Vereinfachte Formel: 
-(A-((100-C)*(14.5+0.12*A)/100))<(B-((100-D)*(14.5+0.12*B)/100)-1)
 
 A = Temperatur Außen
 B = Temperatur Innen
@@ -32,4 +11,4 @@ optimierte Formel:
 Innenbereich optimiert fü 10-25° (maximaler Fehler bei 24/50% Errechnet: 12,7°C | Echt: 12,9°C )
 Außenbereich optimiert für -10 bis +30° (maximaler Fehler bei -10/30% Errechnet: -22,9°C Echt: -24,3°C )
 
-neuen account quirb@web.de und PW Taupunktluefter50
+
