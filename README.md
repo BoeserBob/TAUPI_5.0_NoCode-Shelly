@@ -5,3 +5,6 @@ Shelly control kann mittlerweile einfache Berchnungen.
 Es gibt einfache Gleichungen, die mit geringem Fehler in engen Temperaturbereichen den Taupunkt ausgeben. 
 
 Das wird der einfachste Taupunktlüfter aller Zeiten :-)
+
+Beschreibung hier:
+https://youtu.be/_SJ4Nixnj6U
